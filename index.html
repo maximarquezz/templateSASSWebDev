@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>templateSASSWebDev</title>
+
+	<!--Metadatos-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<meta name="theme-color" content="">
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    	<meta name="generator" content="VSCode">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!--OpenGraph Protocol-->
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	<meta property="og:image:alt" content="">
+	<meta property="og:locale" content="es">
+
+	<!--Etiquetas de precarga-->
+	<link rel="dns-prefetch" href=""> <!--Indica un nombre de dominio que debería resolverse lo antes posible.-->
+	<link rel="preconnect" href=""> <!--Indica una URL a la que debería preconectarse (DNS, handshake, TLS...) lo antes posible.-->
+	<link rel="prerender" href=""> <!--Indica una URL que debería renderizarse porque es muy probable que el usuario acceda.-->
+	<link rel="prefetch" href="" as=""> <!--Indica una URL que se necesitará en el futuro y debería prepararse.-->
+	<link rel="preload" href="" as=""> <!--Indica una URL que debe precargarse inmediatamente para su utilización posterior.-->
+	<link rel="modulepreload" href=""> <!--Indica una URL con un módulo Javascript que debe precargar lo antes posible.-->
+
+	<!--Canonical (original) & Alternate (alternativa)-->
+	<link rel="canonical" href="">
+	<link rel="alternate" href="" hreflang="">
+
+	<!--Indica pag. previa y siguiente-->
+	<link rel="prev" href="">
+	<link rel="next" href="">
+
+	<!--Info adicional o datos, se linkean a páginas (internas o externas)-->
+	<link rel="author" href="">
+	<link rel="help" href="">
+	<link rel="search" href="">
+	<link rel="license" href="">
+
+	<!--Linkeos generales-->
+	<link rel="icon" type="image/jpg" href="">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="normalizebrave.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!--Encabezado de página (también puede estar en articles)-->
+	<header>
+		<nav class="nav">
+			<img src="images/2.PNG" alt="number two" loading="lazy" style="width: 100%; aspect-ratio: 503/387">
+
+			<ul class="nav_ul">
+				<li class="nav_ul-li"><a href="#">Inicio</a></li>
+				<li class="nav_ul-li"><a href="#">Info</a></li>
+				<li class="nav_ul-li"><a href="#">Proyectos</a></li>
+				<li class="nav_ul-li"><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!--MAIN (define el contenido principal)-->
+	<main>
+		<section>
+			<article>
+				<p>Bloques independientes que no dependen del resto.</p>
+				<a href="https://github.com/" target="_BLANK" rel="noreferrer">GitHub</a>
+			</article>
+		</section>
+
+		<section>
+			<form action="/" method="post">
+				<fieldset>
+					<legend>Información personal</legend>
+
+					<label>Nombre:
+					<input type="text" name="name" placeholder="Maxi Marquez" required>
+					</label>
+
+					<label>Email:
+					<input type="email" name="email" placeholder="marquezmaxi122@gmail.com" required>
+					</label>
+				</fieldset>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+	</main>
+
+	<!--ASIDE (Complemento del main content)-->
+	<aside>
+		<p>Opcional, apartado del contenido principal. Se puede omitir, es algo anexo al contenido.</p>
+	</aside>
+
+	<!--FOOTER (Información secundaria final)-->
+	<footer>
+		<small>Texto de ejemplo (copyright o algo secundario)</small>
+	</footer>
+</body>
+</html>
